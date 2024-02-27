@@ -8,6 +8,11 @@ prefer not to use var
 bcz of issue in block scope and functional scope.
 */
 
+/*
+All about Functions and Scopes in JavaScript
+https://www.geeksforgeeks.org/all-about-functions-and-scopes-in-javascript/
+*/
+
 let accountEmail="akshay@gmail.com"
 var accountPassword="akshay@1234"
 let accountstate;
@@ -25,8 +30,8 @@ accountCity="jaipur"
 // ans=>https://www.geeksforgeeks.org/semicolon-in-javascript/
 
 
-// accountId=2  (not allowed)
-// console.log(accountId);
+//accountId=2  (not allowed-const variable)
+//console.log(accountId);
 accountEmail="abs@gmail.com"
 accountPassword="123444"
 accountCity="Bengaluru"
