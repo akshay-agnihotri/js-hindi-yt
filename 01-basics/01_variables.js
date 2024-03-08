@@ -13,6 +13,20 @@ All about Functions and Scopes in JavaScript
 https://www.geeksforgeeks.org/all-about-functions-and-scopes-in-javascript/
 */
 
+/*
+    let: let has block scope, meaning it is limited to the block ({ }) in which it is defined, as well as any nested blocks. It is not accessible outside of those blocks.
+
+    var: var has functional scope or global scope, depending on where it's declared. If declared outside of any function, it has global scope. If declared within a function, it has functional scope, meaning it is limited to that function and can't be accessed from outside.
+
+    const: const also has block scope, just like let. It behaves similarly to let, but it additionally enforces immutability on the variable. This means that once a value is assigned to a const variable, it cannot be reassigned.
+
+    So, in summary:
+
+    let and const have block scope, meaning they're limited to the block ({ }) in which they're defined.
+    var has functional scope if declared within a function, and global scope if declared outside any function.
+    All three are subject to the rules of lexical scoping in JavaScript, where the scope is determined by the placement of the variable declaration in the code.
+*/
+
 let accountEmail="akshay@gmail.com"
 var accountPassword="akshay@1234"
 let accountstate;
